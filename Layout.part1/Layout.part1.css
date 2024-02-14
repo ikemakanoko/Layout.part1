@@ -1,13 +1,18 @@
 @charset "utf-8";
 
+.clearƒix::after{
+content: "";
+display: block;
+clear: both;
+}
 .blue-box1 {
-  width: 200rem;
-  height: 60rem;
+  width: 200px;
+  height: 60px;
   background: #fff;
 }
 
 .blue-box2 {
-  width: 200rem;
-  height: 60rem;
+  width: 200px;
+  height: 60px;
   background: #fff;
 }
